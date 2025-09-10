@@ -1,1 +1,58 @@
-/* Your CSS here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page background */
+body {
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the card */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.card {
+  width: 650px;
+  background: #f2f9f2; /* light green tint */
+  text-align: center;
+}
+
+/* Image */
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+/* Heading */
+.name {
+  color: #222;
+  margin: 10px 0;
+  font-size: 1.6rem;
+}
+
+/* Bio */
+.bio {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 14px 20px;
+  text-align: left;
+}
+
+/* Link */
+.link {
+  display: block;
+  margin: 16px 0 24px;
+  color: #006400;  /* dark green */
+  text-decoration: underline;
+}
